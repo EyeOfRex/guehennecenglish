@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+.header {
+    background: linear-gradient(to right, #0078d7, #00a1e5);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+  
+.header .logo img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin-bottom: -2rem;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+  
+
+.navbar {
+    background: #004aad;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #0078d7;
+    border-radius: 5px;
+  }
+  
+  
+  .content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .search-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-section input {
+    padding: 0.5rem;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  
+  .search-section button {
+    padding: 0.5rem 1rem;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-section button:hover {
+    background-color: #005da1;
+  }
+  
+  
+  .footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #00a1e5;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* guehennecenglish  */
+  
